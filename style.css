@@ -1,0 +1,98 @@
+nav {
+  background-color: #00089f;
+  display: flex;
+}
+ul {
+  display: flex;
+  margin-left: 1100px;
+  gap: 17px;
+}
+li {
+  list-style: none;
+}
+
+.fa-credit-card {
+  color: white;
+  font-size: 20px;
+}
+
+.menu {
+  padding: 50px;
+}
+.menu h1 {
+  font-size: 40px;
+  color: #00089f;
+  text-align: center;
+}
+.menu-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  gap: 50px;
+}
+
+.menu-icons {
+  background-color: #00089f;
+  border-radius: 50%;
+  padding: 15px;
+  width: fit-content;
+  margin: auto;
+}
+.menu-icons :hover {
+  background-color: #007eb3;
+}
+.hero-images :first-child {
+  width: 100%;
+}
+.hero-images :last-child {
+  width: 75px;
+  position: absolute;
+  right: 0;
+}
+
+.hero-images {
+  position: relative;
+  width: 100%;
+}
+
+.hero-text {
+  background-color: #007eb3;
+  color: white;
+  padding: 20px 10px;
+  translate: 0 -200px;
+}
+.hero button {
+  width: 100%;
+  border-radius: 15px;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  color: #007eb3;
+ 
+}
+
+@media (min-width: 600px) {
+  .menu-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10%;
+    max-width: 65rem;
+    margin: auto;
+  }
+
+  .hero-images :first-child {
+    width: 100%;
+    height: 50%;
+  }
+
+  .hero-text {
+    position: absolute;
+    left: 120px;
+    bottom: 60px;
+  }
+
+  .hero-it {
+    position: relative;
+  }
+}
